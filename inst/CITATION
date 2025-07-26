@@ -1,0 +1,26 @@
+bibentry(
+        bibtype = "Article",
+        author = c(person(c("Austin", "Glenn"), "McCoy"),
+                  person(c("Zachary", "A."), "Noel"),
+                  person(c("Adam", "H."), "Sparks"),
+                  person(c("Martin"), "Chilvers")),
+        title = "{hagis}, an {R} Package Resource for Pathotype Analysis of {Phytophthora sojae} Populations Causing Stem and Root Rot of Soybean",
+        journal = "Molecular Plant-Microbe Interactions",
+        year = "2019",
+        volume = "32",
+        number = "12",
+        pages = "1574–1576",
+        month = "nov",
+        doi = "10.1094/MPMI-07-19-0180-A",
+        url = "https://doi.org/10.1094/MPMI-07-19-0180-A")
+
+bibentry(bibtype = "Manual",
+         title = "{hagis}: Analysis of Plant Pathogen Pathotype Complexities, Distributions and Diversity",
+         author = c(person(c("Austin", "G."), "McCoy"),
+                    person(c("Zachary", "A."), "Noel"),
+                    person(c("Adam", "H."), "Sparks"),
+                    person(c("Martin", "I"), "Chilvers")),
+         year = sub("-.*", "", meta$Date),
+         note = sprintf("R package version %s", meta$Version),
+         url = "https://openplantpathology.github.io/hagis/",
+         DOI = "10.5281/zenodo.2619820")
